@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: aquamarine;
+}
+nav {
+    background-color: rgb(46, 138, 46);
+    color: black;
+    height: 8vh;
+    justify-content: center;
+}
+.nav-text{
+    text-align: center;
+    font-size: fit-content;
+}
+.container{
+    position: absolute;
+    height: 50vh;
+    width: 30vw;
+    margin:auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(24, 116, 119);
+    box-shadow: 0 0 20px rgb(17, 96, 99);
+}
+
+.addTask {
+    position: absolute;
+    height: 2vh;
+    width: 10vw;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    outline: none;
+    border: none;
+    padding: 3%;
+    padding-right: 10%;
+    margin-top: 5%;
+    margin-left: 27%;
+}
+
+.addBtn {
+    position: absolute;
+    width: 10%;
+    height: 8%;
+    margin-top: 5.5%;
+    top: 1.5%;
+    right: 18%;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    border: 0;
+    margin-right: 4%;
+}
+.addBtn img {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.taskList{
+    position: absolute;
+    height: 75%;
+    width: 100%;
+    margin: auto;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.taskList::-webkit-scrollbar{
+    -webkit-appearance: none;
+    appearance: none;
+}
+.element {
+    position: relative;
+    height: fit-content;
+    width: 55%;
+    right: 0;
+    margin: 5%;
+    text-align: left;
+    padding: 3%;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 1%;
+    padding-right: 20%;
+    word-wrap: break-word;
+}
+.element:hover{
+    transform: scale(1.1);
+}
+.edit {
+    position: absolute;
+    margin: auto;
+    height: 5vh;
+    top: 0;
+    bottom: 0;
+    right: 35%;
+}
+.tick{
+    position: absolute;
+    margin: auto;
+    height: 5vh;
+    top: 0;
+    bottom: 0;
+    right: 15%;
+}
+.bin{
+    position: absolute;
+    margin: auto;
+    height: 5vh;
+    top: 0;
+    bottom: 0;
+    right: 3%;
+}
