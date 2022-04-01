@@ -1,1 +1,1 @@
-TodoList - A Complete Webapp to make todos where we can add, mark them as completed, delete and edit todos.
+TodoList - A Complete Webapp to make todos where we can add, mark them as completed, delete and edit todos. It instantly creates todos without need of refreshing the page also local storage is used to store todos so that they dont vanish on refreshing the page
